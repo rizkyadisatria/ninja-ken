@@ -1,0 +1,145 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+header {
+    padding-bottom: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin: 0 15px 0 15px;
+}
+
+header h1 {
+    margin-left: 25px;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+main h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+main p {
+    font-weight:normal;
+}
+
+main span {
+    font-size: 60px;
+    color: #f1d00e;
+}
+
+.about {
+    padding: 30px 30px 30px 30px;
+    background-color: #f4f4f4;
+    margin-bottom: 40px;
+}
+
+.about h1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about p {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.project {
+    padding-bottom: 50px;
+}
+.project h1 {
+        font-weight: bold;
+        font-size: 18px;
+}
+
+.project img {
+    margin: 20px 40px 0 40px;
+}
+
+.item {
+    justify-content: center;
+    display: flex;
+}
+
+.content img {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 0px;
+}
+
+.contact {
+    padding: 20px 0px 50px 0px;
+    background-color: #f4f4f4;
+}
+
+.contact h1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.email {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.email input {
+    padding: 10px 200px 10px 10px;
+    border: 1px #ffffff solid;
+    border-radius: 5px;
+}
+
+.message textarea {
+    padding: 5px 200px 5px 10px;
+    border-radius: 10px;
+    border: 1px #ffffff solid;
+    margin-bottom: 15px;
+}
+
+.button input {
+    padding: 10px 100px 10px 100px;
+    border: none;
+    background-color: #f7e989;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #7c7d82;
+    color: #fff;
+    height: 100px;
+    padding: 50px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    list-style: none;
+    padding-bottom: 20px;
+  }
+
