@@ -35,34 +35,63 @@
         <div class="project">
             <h1>Proyek Contoh</h1>
             <div class="item">
-                <div class="content">
+                <div class="content content-1">
                     <img src="/1.png">
                     <p>Image 1</p>
                 </div>
-                <div class="content">
+                <div class="content content-2">
                     <img src="/2.png">
                     <p>Image 2</p>
                 </div>
-                <div class="content">
+                <div class="content content-3">
                     <img src="/3.png">
                     <p>Image 3</p>
                 </div>
+                <div class="content content-4">
+                    <img src="/2.png">
+                    <p>Image 4</p>
+                </div>
+                <button class="slide slide-left">←</button>
+                <button class="slide slide-right">→</button>
+            </div>
+            <div class="slide-btn">
             </div>
         </div>
         <div class="contact">
             <h1>Hubungi Saya</h1>
-            <div class="email">
-                <input placeholder="Email (Diperlukan)" type="text">
-            </div>
-            <div class="message">
-                <textarea placeholder="Message (Diperlukan)" name="message" cols="21" rows="3"></textarea>
-            </div>
-            <div class="button">
-                <input type="submit" value="Kirim">
-            </div>
+            <form>
+                <div class="email">
+                    <input placeholder="Email (Diperlukan)" type="email" required>
+                </div>
+                <div class="message">
+                    <textarea placeholder="Message (Diperlukan)" name="message" cols="21" rows="3" required></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Kirim">
+                </div>
+            </form>
         </div>
     </main>
+    <div class="faq">
+        <div class="section">
+            <div class="faq-title">
+                <h1 class="question">Lorem ipsum?</h1>
+                <p class="plus">+</p>
+            </div>
+            <p class="answer">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</p>
+        </div>
+        <div class="section">
+            <div class="faq-title">
+                <h1 class=" question">dolor sit amet?</h1>
+                <p class="plus">+</p>
+            </div>
 
+            <p class="answer">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</p>
+        </div>
+
+    </div>
     <div class="footer">
         <div class="footer-logo">NINJA KEN</div>
         <div class="footer-list">
@@ -73,6 +102,7 @@
             </ul>
         </div>
     </div>
+    <script src="/script.js"></script>
 </body>
 
 </html>
